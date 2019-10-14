@@ -1,0 +1,37 @@
+/* .P ini artinya class */
+/* kalo misalkan pake # artinya id */
+/* class itu sebagai penanda di html */
+.ini-warna-merah{
+    color: red
+}
+.ini-warna-biru{
+    color: blue
+}
+.ini-warna-hijau{
+    color: green;
+    font-size:50px;
+}
+.ini-warna-hijau h1{
+    color: red
+}
+.ini-warna-kuning{
+    color:yellow;
+}
+.ini-warna-kuning h1{
+    color:red;
+}
+.ini-warna-kuning h6{
+    color:green;
+}
+
+.ini-warna-hijau h1{
+    color: blue;
+    font-size:50px;
+}
+.ini-warna-hijau h3{
+    color: grey;
+    font-size:50px;
+}
+.ini-warna-merah p{
+    color: yellow
+}

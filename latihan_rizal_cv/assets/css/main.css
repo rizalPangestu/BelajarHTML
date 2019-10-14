@@ -1,0 +1,64 @@
+@import url("formatting.css");
+
+.container{
+    max-width: 1020px;
+    width: 100%;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.px-5{
+    padding: 20px;
+}
+/* about me container */
+.section-container{
+    background: wheat;
+    padding: 23px;
+    border-radius: 6px;
+    box-shadow: 1px 0px 10px 1px #b5b5b5;
+}
+#sidebar .sidebar{
+    width: 30%
+}
+.content{
+    width: 70%;
+}
+.coloumn-item{
+    box-shadow: 1px 0px 10px 1px #b5b5b5;
+}
+.title{
+    padding: 12px;
+    background: #66a4e4;
+}
+.text-sidebar{
+    background: white;
+    padding: 12px;
+    font: bold;
+}
+.aboutme-text{
+    padding: 23px;
+}
+.content-text{
+    background: white;
+}
+
+/* card bio,profil,dll */
+.card{
+    width: 25%;
+    padding: 14px;
+}
+.card-body{
+    padding: 14px;
+}
+.card-item{
+    transition: 0.5s;
+    box-shadow: 0px 0px 25px 0.5px gray;
+}
+.card-item:hover {
+    transition: 0.5s;
+    transform: translate(10px);
+}
+
+

@@ -1,0 +1,19 @@
+<html>
+<body>
+<form name="formku" action="action.php" onsubmit="return validasiForm()" method="post">
+Nama: <input type="text" name="nama" value=""/>
+<input type="radio" name="jenkel" value="Pria"/> Pria
+<input type="radio" name="jenkel" value="Wanita"/> Wanita
+<button onclick="validasiForm()">submit</button>
+</form>
+<script>
+function validasiForm() 
+    { var x = document.forms["formku"]["nama"].value;
+        if (x == null || x == "") 
+            { alert("Nama harus diisi/tidak boleh kosong.");
+                return false;
+            }
+}
+    </script>
+</body>
+</html>

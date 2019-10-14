@@ -1,1 +1,0 @@
-<?php //define('BASE_URL', 'localhost/rizal_cv');

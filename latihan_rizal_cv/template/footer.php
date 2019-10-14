@@ -1,4 +1,0 @@
-<!-- scirpt js -->
-
-</body>
-</html>
